@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="viewerControlMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="798.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.viewer.ViewerMenuController">
+    <left>
+        <ListView fx:id="carListView" prefHeight="331.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </left>
+    <center>
+        <VBox prefHeight="396.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="37.0" prefWidth="199.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registration No.">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="registrationTextField" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Year Made">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="yearMadeTextfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color No. 1">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="color1Textfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color No. 2">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="color2Textfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Color No. 3">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="color3Textfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Car Make">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="carMakeTextfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Car Model">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="carModelTextfield" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Price">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="priceTextField" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+                                    <VBox.margin>
+                                        <Insets left="10.0" />
+                                    </VBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                        <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Text fx:id="quantityTextField" strokeType="OUTSIDE" strokeWidth="0.0">
+                                    <font>
+                                        <Font size="14.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="36.4" prefWidth="400.0">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Button mnemonicParsing="false" onAction="#buy" text="Buy">
+                                    <HBox.margin>
+                                        <Insets left="5.0" />
+                                    </HBox.margin>
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Button>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="195.0" />
+                            </HBox.margin>
+                        </HBox>
+                    </children>
+                </HBox>
+                <Text fx:id="error" fill="#cd1414" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets left="5.0" />
+                    </VBox.margin>
+                </Text>
+            </children>
+        </VBox>
+    </center>
+    <top>
+        <VBox prefHeight="78.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="52.0" prefWidth="600.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#goBack" text="Back">
+                            <HBox.margin>
+                                <Insets left="5.0" />
+                            </HBox.margin>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#reload" text="Reload">
+                            <HBox.margin>
+                                <Insets left="5.0" />
+                            </HBox.margin>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="49.0" prefWidth="600.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Registration No.">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets left="5.0" right="5.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField fx:id="searchByRegistraionField">
+                            <HBox.margin>
+                                <Insets right="5.0" />
+                            </HBox.margin>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Car Make">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets right="5.0" />
+                            </HBox.margin>
+                        </Text>
+                        <TextField fx:id="searchByCarMakeField">
+                            <HBox.margin>
+                                <Insets right="5.0" />
+                            </HBox.margin>
+                        </TextField>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Car Model">
+                            <HBox.margin>
+                                <Insets right="5.0" />
+                            </HBox.margin>
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="searchByCarModelField">
+                            <HBox.margin>
+                                <Insets right="20.0" />
+                            </HBox.margin>
+                        </TextField>
+                        <Button mnemonicParsing="false" onAction="#search" text="Search">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </top>
+</BorderPane>
